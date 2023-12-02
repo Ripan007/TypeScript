@@ -4,6 +4,9 @@ function App() {
   }
   console.log(add(10, 20));
 
+  let numbers: Array<number> = [1, 3, 5]
+  console.log(numbers);
+
   return <>
     welcome</>
 }
