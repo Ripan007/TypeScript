@@ -1,14 +1,8 @@
 function App() {
-  let person: {
-    name: string,
-    age: number
+  function add(a: number, b: number) {
+    return a + b
   }
-
-  person = {
-    name: 'jojn',
-    age: 23
-  }
-  console.log(person.name);
+  console.log(add(10, 20));
 
   return <>
     welcome</>
