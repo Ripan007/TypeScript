@@ -1,8 +1,9 @@
-import Todos from "./components/Todos";
+import Todos from "./components/Todos"
+
 
 function App() {
   return <>
-    <Todos />
+    <Todos items={['react is awesome', 'havem some fun with  react']} />
   </>
 }
 
