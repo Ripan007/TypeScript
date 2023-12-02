@@ -1,6 +1,14 @@
 function App() {
-  let age: number;
-  age = 35;
+  let person: {
+    name: string,
+    age: number
+  }
+
+  person = {
+    name: 'jojn',
+    age: 23
+  }
+  console.log(person.name);
 
   return <>
     welcome</>
