@@ -3,8 +3,9 @@ function App() {
     <>
       <h1>welcome to typescript kkk</h1>
       <p>add one more line</p>
+      <p>enjoy , time consumption</p>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
