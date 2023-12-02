@@ -1,12 +1,8 @@
 function App() {
-  return (
-    <>
-      <h1>welcome to typescript kkk</h1>
-      <p>add one more line</p>
-      <p>enjoy , time consumption</p>
-      kkk more llllllll
-    </>
-  )
+  let age: number;
+  age = 35;
+  console.log();
+  return <></>
 }
 
 export default App
